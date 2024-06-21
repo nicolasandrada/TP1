@@ -9,6 +9,7 @@
     
     <select>
         <?php
+        //Con esto queda demostrado que el PHP se puede abrir en cualquier parte
         for($edad = 0; $edad<=99 ; $edad++){
             echo "<option> $edad </option>";
         } 
